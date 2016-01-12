@@ -6,10 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class ThreeSum {
-
-	/**
-	 * @param args
-	 */
 	public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result =  new ArrayList<List<Integer>>();
         if(nums==null || nums.length<3){
